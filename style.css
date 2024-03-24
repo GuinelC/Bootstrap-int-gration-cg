@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  border-bottom: 2px solid rgb(125, 119, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: roboto;
+  font-size: 16px;
+}
+nav a {
+  font-weight: 700;
+  color: #1B1C1E;
+}
+nav img {
+  margin: 5px;
+  width: 50px;
+}
+nav .signUp {
+  background-color: #7D77FF;
+}
+nav .logIn {
+  color: rgb(125, 119, 255);
+  border-bottom: 2px solid #7D77FF !important;
+  background-color: transparent;
+}
+
+.section1 {
+  height: 501px;
+}
+.section1 h1 {
+  font-size: clamp(40px, 8vw, 55px);
+  font-family: roboto;
+  font-weight: bold;
+}
+.section1 p {
+  font-size: 18px;
+  font-family: roboto;
+}
+.section1 .btn-1 {
+  background-color: rgb(125, 119, 255);
+  border: 2px solid rgb(125, 119, 255);
+  padding: 8px 16px;
+}
+.section1 .btn-2 {
+  background-color: transparent;
+  border: 2px solid rgb(125, 119, 255);
+  color: rgb(125, 119, 255);
+  padding: 8px 16px;
+}
+
+.section2 {
+  background-color: #B6B2FF;
+  width: 100%;
+  color: white;
+}
+.section2 h2 {
+  font-family: roboto;
+  font-size: clamp(25px, 8vw, 48px);
+}
+.section2 h3 {
+  font-size: 32px;
+}
+.section2 .info {
+  font-family: roboto;
+  font-size: 24px;
+  gap: 10px;
+}
+.section2 p {
+  font-size: 16px;
+}
+
+.section3 {
+  width: 90%;
+}
+.section3 h2 {
+  font-size: 48px;
+}
+.section3 p {
+  font-size: 16px;
+}
+.section3 button {
+  background-color: rgb(125, 119, 255);
+  border: 2px solid rgb(125, 119, 255);
+  padding: 8px 16px;
+}
+
+.section4 h2 {
+  font-size: 48px;
+}
+.section4 p {
+  font-size: 16px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+
+/* STORE PAGE CSS */
+#store h1 {
+  font-family: roboto;
+  font-size: 56px;
+  font-weight: bold;
+}
+#store button {
+  background-color: rgb(125, 119, 255);
+  border: 2px solid rgb(125, 119, 255);
+  padding: 8px 16px;
+}
+#store .searchBox {
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+#store .inputSearch {
+  border: none;
+  outline: none;
+  width: 215px;
+  border-right: 2px solid gray;
+}
+#store .btnSelect {
+  width: 180px;
+  padding: 8px 16px;
+}
+#store .rotate {
+  transform: rotate(-90deg);
+  margin-left: 5px;
+}
+#store .cardProduct {
+  height: auto;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.168627451);
+}
+#store .cardProduct img {
+  width: 100%;
+  height: 200px;
+  background-color: #B6B2FF;
+}
+#store .big-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2B2B2B;
+}
+#store .little-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #B3B3B3;
+}
+#store .btn-load {
+  background-color: #FEFEFE;
+  color: #7D77FF;
+}
